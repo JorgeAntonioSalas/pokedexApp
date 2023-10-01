@@ -3,7 +3,7 @@ import { useSelector} from 'react-redux';
 import axios from 'axios';
 import PokemonCard from './PokemonCard';
 import { useNavigate } from 'react-router-dom';
-import '../styles/pokedex.css';
+import '../styles/Pokedex.css';
 import Header from './Header';
 
 
