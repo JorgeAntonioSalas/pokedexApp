@@ -1,0 +1,103 @@
+.pokemon-input {
+    height: calc(100vh - 5rem);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-input>img {
+    margin-bottom: 3rem;
+}
+
+.pokemon-input>div>h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    margin-bottom: 0.5rem;
+    color: #FE1936;
+}
+
+.pokemon-input>div>p>b {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.pokemon-input>div:nth-child(2) {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-input>div:last-child {
+    display: flex;
+}
+
+.pokemon-input>div>input,
+button {
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.pokemon-input>div>input {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    box-shadow: -1px 6px 8px rgba(0, 0, 0, 0.267);
+    padding: 1rem;
+
+}
+
+.pokemon-input>div>button {
+    font-size: 24px;
+    height: 100%;
+    width: 5rem;
+    border: none;
+    background-color: #D93F3F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #02020260;
+}
+
+.pokemon-input>footer {
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #DD1A1A;
+    display: flex;
+}
+
+.pokemon-input>footer>div:nth-child(1) {
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 4rem);
+    height: 4rem;
+    width: 4rem;
+    border: 6px solid #000000;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-input>footer>div:nth-child(1)>div {
+    height: 2.1rem;
+    width: 2.1rem;
+    border-radius: 50%;
+    border: 6px solid #000000;
+    background-color: rgb(128, 128, 128);
+}
+
+.pokemon-input>footer>div:nth-child(2) {
+    align-self: flex-end;
+    height: 2rem;
+    width: 100%;
+    background-color: #000000;
+}

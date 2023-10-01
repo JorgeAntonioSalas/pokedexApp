@@ -1,0 +1,76 @@
+.welcomemsg {
+    font-size: xx-large;
+}
+.pokedex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* welcome mesagge */
+
+.pokedex>p {
+    font-family: 'Inter';
+    font-weight: 500;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.pokedex>p>span>b {
+    color: #FE1936;
+}
+
+/* input and select */
+
+.pokedex>div:nth-child(3) {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.pokedex>div {
+    width: 100%;
+}
+
+.pokedex>div>div>input,
+button {
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.pokedex>div>div>input {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    box-shadow: -1px 6px 8px rgba(0, 0, 0, 0.267);
+    padding: 1rem;
+    margin: 0 0 0 2rem;
+}
+
+.pokedex>div>div>button {
+    font-size: 24px;
+    height: 100%;
+    width: 5rem;
+    border: none;
+    background-color: #D93F3F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.pokedex select {
+    margin-left: 2rem;
+    border: none;
+    font-family: 'Inter';
+    outline: none;
+}
+
+/* pokemon list */
+
+.pokedex > ul {
+    width: 97%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11.5rem, auto));
+    gap: 1rem;
+}

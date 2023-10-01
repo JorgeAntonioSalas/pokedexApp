@@ -1,0 +1,102 @@
+[
+    {
+        "name": "normal",
+        "color": "#000000",
+        "background": "linear-gradient(rgb(187, 187, 187), rgb(230, 230, 230)"
+    },
+    {
+        "name": "fighting",
+        "color": "#EB3333",
+        "background": "linear-gradient(#EB3333, #ff8905)"
+    },
+    {
+        "name": "flying",
+        "color": "#a2f6e6",
+        "background": "linear-gradient(#a2f6e6, #dff8f4)"
+    },
+    {
+        "name": "poison",
+        "color": "#931065",
+        "background": "radial-gradient(#931065, #9b4d7d, #e97abe)"
+    },
+    {
+        "name": "ground",
+        "color": "#974535",
+        "background": "linear-gradient(#974535, #eb9e8e)"
+    },
+    {
+        "name": "rock",
+        "color": "#898989",
+        "background": "linear-gradient(#646464, #c2c1c1)"
+    },
+    {
+        "name": "bug",
+        "color": "#A9D050",
+        "background": "linear-gradient(#a3d138, #dcf89a)"
+    },
+    {
+        "name": "ghost",
+        "color": "#420039",
+        "background": "linear-gradient(#420039, #9e3375)"
+    },
+    {
+        "name": "steel",
+        "color": "#CDCFC9",
+        "background": "linear-gradient(45deg,#b7b8b5, #FFFFFF, #9b9b9a)"
+    },
+    {
+        "name": "fire",
+        "color": "#E61C1C",
+        "background": "linear-gradient(#E61C1C, #f16f6f)"
+    },
+    {
+        "name": "water",
+        "color": "#0d15ae",
+        "background": "linear-gradient(#0d15ae, #a1a5f3)"
+    },
+    {
+        "name": "grass",
+        "color": "#0F9600",
+        "background": "linear-gradient(#0F9600, #89fc7c)"
+    },
+    {
+        "name": "electric",
+        "color": "#F7FF00",
+        "background": "linear-gradient(#F7FF00, #eaeca1)"
+    },
+    {
+        "name": "psychic",
+        "color": "#FF4791",
+        "background": "linear-gradient(#FF4791, #FFADCE)"
+    },
+    {
+        "name": "ice",
+        "color": "#3fb9ff",
+        "background": "linear-gradient(#3fb9ff, #FFFFFF)"
+    },
+    {
+        "name": "dragon",
+        "color": "#7038f8",
+        "background": "linear-gradient(45deg,#7642f0, #bba2f5, #5317e0)"
+    },
+    {
+        "name": "dark",
+        "color": "#705848",
+        "background": "radial-gradient(rgb(51, 51, 51), #705848)"
+    },
+    {
+        "name": "fairy",
+        "color": "#ee99ac",
+        "background": "radial-gradient(#ee99ac, #e9cad1, #ee99ac)"
+    },
+    {
+        "name": "unknown",
+        "color": "#ee99ac",
+        "background": "#ee99ac"
+    },
+    {
+        "name": "shadow",
+        "color": "#021520",
+        "background": "linear-gradient(#021520, #5c6083)"
+    }
+]

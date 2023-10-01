@@ -1,0 +1,112 @@
+.pokemon-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-details > div:nth-child(2) {
+    margin-top: 5rem;
+    width: 90%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px rgba(19, 18, 18, 0.26);
+    padding: 0.5rem;
+}
+
+.pokemon > div {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+}
+
+.pokemon img {
+    align-self: flex-end;
+    width: 18rem;
+    height: 18rem;
+}
+
+.pokemon > div:nth-child(2) h1 {
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.pokemon > div:nth-child(2) > div {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pokemon > div:nth-child(2) > div > div {
+    border-top: 1px solid rgba(102, 102, 102, 0.596);
+    width: 80%;
+    margin: auto;
+}
+
+.features {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.features p {
+    font-family: 'Roboto';
+}
+
+.features > div {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.typeskills {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.typeskills p {
+    font-family: 'Roboto';
+}
+
+.typeskills > div {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.stats p {
+    font-family: 'Roboto';
+}
+
+.stats > div {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+} */
